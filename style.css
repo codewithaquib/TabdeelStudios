@@ -1,0 +1,42 @@
+.social-icons-header{
+	padding:5px;
+	color:#ffffff;
+}
+
+.social-icons-header a{
+	color:#ffffff;
+	margin-left:10px;
+	font-size: 18px;
+}
+
+#main-background{
+	background-image:url("images/codebg.jpg");
+	background-size: cover;
+    background-position: center;
+    height:500px;
+    opacity: 2.0;
+    padding-top: 200px;
+}
+
+.title-tagline{
+	padding:10px;
+	border:2px solid #fff;
+	border-radius: 10px;
+	background-color: #000;
+	opacity:0.8;
+	max-width: 400px;
+	text-align: center;
+}
+
+#main-title, #main-tagline {
+	color:#ffffff;
+}
+
+#how-this-works{
+	background-color: #778899;
+	padding: 20px;
+}
+
+.content{
+	border-right: 2px solid white;
+}
