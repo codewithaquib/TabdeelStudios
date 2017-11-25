@@ -10,7 +10,7 @@
 }
 
 #main-background{
-	background-image:url("images/codebg.jpg");
+	background-image:url("images/background/codebg.jpg");
 	background-size: cover;
     background-position: center;
     height:500px;
@@ -32,6 +32,8 @@
 	color:#ffffff;
 }
 
+
+/*How this works section*/
 #how-this-works{
 	padding: 20px;
 	text-align: center;
@@ -60,13 +62,166 @@
 	height:3em;
 	font-weight: 80;
 	font-family: Work Sans;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	padding: 0;	
 	border-color: #FFFFFF;
+	border-radius: 20px;
 }
 
 #get-started-now button:hover{
-	background-color: #232B2B;
+	background-color: #FFFFFF;
 	cursor: pointer;
+	color:#232B2B;
 	border-color: #FFFFFF;
 }
+
+/*Technologies Used Section*/
+.tech-icon{
+	width:60%;
+	margin-left: 15px;
+}
+
+#technologies-used{
+	text-align: center;	
+}
+
+#technologies-used h2{
+	font-family: Raleway;
+}
+
+#technologies-used hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+#technologies-used p{
+	line-height: 1;
+}
+
+.section-last{
+	margin-top: 0;
+}
+
+/*Process Section*/
+#process-section{
+	background-color: #B92326;
+	padding: 10px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#process-section h2{
+	font-family: Raleway;
+}
+
+#process-section hr{
+	border-top: 4px double #FFEBEE;
+	text-align: center;
+}
+
+#process-section .content{
+	border: 2px solid #FFEBEE;
+	padding: 8px;
+}
+
+/*Services Offered Section*/
+#services-offered{
+	padding:10px;
+	text-align: center;
+	background-color: #0e1c00;
+	color:#bab531;
+}
+
+#services-offered h2{
+	font-family: Raleway;
+}
+
+#services-offered p{
+	border-top: 2px solid #bab531;
+	padding-top: 10px;
+
+}
+
+#services-offered div #services-hr{
+	border:         none;
+    border-left:    1px solid #bab531;
+    height:         30vh;
+    width:          1px;  
+}
+
+#services-offered hr{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #bab531 inset;
+}
+
+/*Packages Section - Web Dev*/
+#packages-webdev{
+	padding:10px;
+	text-align: center;
+	background-color: #455A64;
+	color:#ECEFF1;
+}
+
+#packages-webdev h2{
+	font-family: Raleway;
+}
+
+#packages-webdev hr{
+	border-top: 1px dashed #ECEFF1;
+}
+	
+#packages-webdev .card-title, .card-text{
+	color:#ECEFF1;
+}
+
+#packages-webdev .card-header{
+	border-bottom: 1px solid #ECEFF1;
+}
+
+/*Packages Section - Graphic Design*/
+#packages-graphic-design{
+	padding:10px;
+	text-align: center;
+	background-color: #455A64;
+	color:#ECEFF1;
+}
+
+#packages-graphic-design h2{
+	font-family: Raleway;
+}
+
+#packages-graphic-design hr{
+	border-top: 1px dashed #ECEFF1;
+}
+	
+#packages-graphic-design .card-title, .card-text{
+	color:#ECEFF1;
+}
+
+#packages-graphic-design .card-header{
+	border-bottom: 1px solid #ECEFF1;
+}
+
+/*Team Section*/
+#team-section{
+	padding:10px;
+	text-align: center;
+	background-color: #000000;
+	color:#b9d3ea;
+}
+
+#team-section h2{
+	font-family: Raleway;
+}
+
+#team-section .card-img-top{
+	max-width: 50%;
+	margin: auto;
+}
+
+#team-back{
+	background-color: #000000;
+}
+
