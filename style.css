@@ -33,10 +33,40 @@
 }
 
 #how-this-works{
-	background-color: #778899;
 	padding: 20px;
+	text-align: center;
+	background-color: #232B2B;
+	color: #FFFFFF;
+
 }
 
+#how-this-works hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+
+#how-this-works h2{
+	font-family: Raleway;
+}
 .content{
-	border-right: 2px solid white;
+	border: 2px solid #DC3D24;
+	padding: 8px;
+}
+
+#get-started-now button{
+	background-color: #DC3D24;
+	color:#FFFFFF;
+	height:3em;
+	font-weight: 80;
+	font-family: Work Sans;
+	font-size: 1.5em;
+	padding: 0;	
+	border-color: #FFFFFF;
+}
+
+#get-started-now button:hover{
+	background-color: #232B2B;
+	cursor: pointer;
+	border-color: #FFFFFF;
 }
