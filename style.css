@@ -1,16 +1,57 @@
-.social-icons-header{
-	padding:5px;
-	color:#ffffff;
+/*Side Nav*/
+#mySidenav a {
+	margin-top: 300px;
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
 }
 
-.social-icons-header a{
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 0px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 50px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 100px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 150px;
+    background-color: #555
+}
+
+.track-your-order{
+	color:rgba(255,255,255,.5);
+}
+
+.track-your-order li{
+	list-style-type: none;	
+}
+
+.track-your-order a{
 	color:#ffffff;
 	margin-left:10px;
 	font-size: 18px;
 }
 
 #main-background{
-	background-image:url("images/codebg.jpg");
+	background-image:url("images/background/codebg.jpg");
 	background-size: cover;
     background-position: center;
     height:500px;
@@ -26,17 +67,288 @@
 	opacity:0.8;
 	max-width: 400px;
 	text-align: center;
+	margin-top: 100px;
 }
 
 #main-title, #main-tagline {
 	color:#ffffff;
 }
+/*Quote section*/
+#quote-section{
+	padding: 10px;
+}
 
+#quote-section .inverted-comma{
+	font-size: 20px;
+}
+
+
+
+/*How this works section*/
 #how-this-works{
-	background-color: #778899;
 	padding: 20px;
+	text-align: center;
+	background-color: #232B2B;
+	color: #FFFFFF;
+
 }
 
-.content{
-	border-right: 2px solid white;
+#how-this-works hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
 }
+
+#how-this-works h2{
+	font-family: Raleway;
+}
+.content{
+	border: 2px solid #DC3D24;
+	padding: 8px;
+}
+
+#get-started-now button{
+	background-color: #DC3D24;
+	color:#FFFFFF;
+	height:3em;
+	font-weight: 80;
+	font-family: Work Sans;
+	font-size: 1.2em;
+	padding: 0;	
+	border-color: #FFFFFF;
+	border-radius: 20px;
+}
+
+#get-started-now button:hover{
+	background-color: #FFFFFF;
+	cursor: pointer;
+	color:#232B2B;
+	border-color: #FFFFFF;
+}
+
+/*Technologies Used Section*/
+.tech-icon{
+	width:60%;
+	margin-left: 15px;
+}
+
+#technologies-used{
+	text-align: center;	
+}
+
+#technologies-used h2{
+	font-family: Raleway;
+}
+
+#technologies-used hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+#technologies-used p{
+	line-height: 1;
+}
+
+.section-last{
+	margin-top: 0;
+}
+
+/*Process Section*/
+#process-section{
+	background-color: #B92326;
+	padding: 10px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#process-section h2{
+	font-family: Raleway;
+}
+
+#process-section hr{
+	border-top: 4px double #FFEBEE;
+	text-align: center;
+}
+
+#process-section .content{
+	border: 2px solid #FFEBEE;
+	padding: 8px;
+}
+
+/*Services Offered Section*/
+#services-offered{
+	padding:10px;
+	text-align: center;
+	background-color: #0e1c00;
+	color:#bab531;
+}
+
+#services-offered h2{
+	font-family: Raleway;
+}
+
+#services-offered p{
+	border-top: 2px solid #bab531;
+	padding-top: 10px;
+
+}
+
+#services-offered div #services-hr{
+	border:         none;
+    border-left:    1px solid #bab531;
+    height:         30vh;
+    width:          1px;  
+}
+
+#services-offered hr{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #bab531 inset;
+}
+
+/*Packages Section - Web Dev*/
+#packages-webdev{
+	padding:10px;
+	text-align: center;
+	background-color: #455A64;
+	color:#ECEFF1;
+}
+
+#packages-webdev h2{
+	font-family: Raleway;
+}
+
+#packages-webdev hr{
+	border-top: 1px dashed #ECEFF1;
+}
+	
+#packages-webdev .card-title, .card-text{
+	color:#ECEFF1;
+}
+
+#packages-webdev .card-header{
+	border-bottom: 1px solid #ECEFF1;
+}
+
+/*Packages Section - Graphic Design*/
+#packages-graphic-design{
+	padding:10px;
+	text-align: center;
+	background-color: #455A64;
+	color:#ECEFF1;
+}
+
+#packages-graphic-design h2{
+	font-family: Raleway;
+}
+
+#packages-graphic-design hr{
+	border-top: 1px dashed #ECEFF1;
+}
+	
+#packages-graphic-design .card-title, .card-text{
+	color:#ECEFF1;
+}
+
+#packages-graphic-design .card-header{
+	border-bottom: 1px solid #ECEFF1;
+}
+
+/*Team Section*/
+#team-section{
+	padding:10px;
+	text-align: center;
+	background-color: #000000;
+	color:#b9d3ea;
+}
+
+#team-section h2{
+	font-family: Raleway;
+}
+
+#team-section .card-img-top{
+	max-width: 50%;
+	margin: auto;
+}
+
+#team-back{
+	background-color: #000000;
+}
+
+#team-back #aquib-team{
+	background-image: url("images/team/aquib.jpg");
+	background-size: cover;
+    background-position: center;
+}
+
+#team-back #sarat-team{
+	background-image: url("images/team/sarat.jpg");
+	background-size: cover;
+    background-position: center;
+}
+
+#team-back #shivani-team{
+	background-image: url("images/team/shivani.jpg");
+	background-size: cover;
+    background-position: center;
+}
+
+#team-back .card{
+	height: 300px;
+}
+
+#team-section hr{
+	background-color: #b9d3ea;
+	border-top: 2px dashed #8c8b8b;
+}
+
+/*Contact us Section*/
+
+#contact-section{
+	padding:10px;
+	text-align: center;
+	color: #f4f9fb;
+	background-color: #87232f;
+}
+
+#contact-section .card{
+	background-color: #150b04;
+}
+
+#contact-section hr{
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff; 
+}
+
+/*Footer Section*/
+footer{
+	background-color: #212529;
+	color: #FFFFFF;
+}
+
+footer .row{
+	padding: 10px;
+}
+
+
+/*Back to top button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #bdbdbd;
+  color:#000000;
+  }
