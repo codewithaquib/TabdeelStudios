@@ -13,9 +13,30 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Anton|Work+Sans|Raleway" rel="stylesheet">  
 
+
+		<!-- Back To Top Code -->
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+	        document.getElementById("myBtn").style.display = "block";
+	    } else {
+	        document.getElementById("myBtn").style.display = "none";
+	    }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
 </head>
 <body>
-	<header class="header">
+	<header class="header fixed-top">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container">
 				<a class="navbar-brand" href="#">
@@ -29,30 +50,42 @@
 
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#how-this-works">How this works?</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Link</a>
+			        <a class="nav-link" href="#process-section">Process</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#services-offered">Services Offered</a>
 			      </li>
 			      <li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Dropdown
+			          Packages
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
+			          <a class="dropdown-item" href="#packages-webdev">Static One Page</a>
+			          <a class="dropdown-item" href="#packages-webdev">Static Multi Page</a>
+			          <a class="dropdown-item" href="#packages-webdev">Dynamic Multi Page</a>
+			          <a class="dropdown-item" href="#packages-webdev">Revamp</a>
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Something else here</a>
+			          <a class="dropdown-item" href="#packages-webdev">Personalise your package</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#packages-graphic-design">Graphic Design Packages</a>
 			        </div>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link disabled" href="#">Disabled</a>
+			        <a class="nav-link" href="#team-section">Team</a>
 			      </li>
+			      
 			    </ul>
-			    <div class="social-icons-header">
-			    	Social Profiles : <a href="http://www.facebook.com/tabdeelstudios"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-			        <a href="http://www.instagram.com/tabdeelstudios"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+			    <div class="track-your-order">
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="#">Track your order</a>
+			      	</li>
+			    	<!--
+			    	 Social Profiles : <a href="http://www.facebook.com/tabdeelstudios"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+			        <a href="http://www.instagram.com/tabdeelstudios"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a> -->
 			    </div>
 			  </div>
 			</div>
@@ -65,14 +98,15 @@
 			<h3 id="main-tagline">Back to the basics.</h3>
 		</div>
 	</section>
-	<hr>
 	<!-- Quote Section -->
 	<section id="quote-section">
 		<div class="container">
-			<p class="quote">"Be a yardstick of quality. Some people aren't used to an environment where excellence is expected." - Steve Jobs</p>
+			<blockquote class="blockquote text-center">
+			  <p class="mb-0"><span class="inverted-comma">"</span>Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.<span class="inverted-comma">"</span></p>
+			  <footer class="blockquote-footer"><cite title="Source Title">Steve Jobs</cite></footer>
+			</blockquote>
 		</div>
 	</section>
-	<hr>
 	<!-- How This Works Section -->
 	<section id="how-this-works">
 		<div class="container">
@@ -111,6 +145,14 @@
 			</div>
 		</div>
 	</section><br>
+
+	<div id="mySidenav" class="sidenav">
+      <a href="#" id="about">About</a>
+      <a href="#" id="blog">Blog</a>
+      <a href="#" id="projects">Projects</a>
+      <a href="#" id="contact">Contact</a>
+    </div> 
+
 	<!-- Technologies Used Section-->
 	<section id="technologies-used">
 		<div class="container">
@@ -288,54 +330,60 @@
 				  <div class="card-body">
 				  	<div class="card-group">
 				    <div class="card">
-					    <img class="card-img-top" src="..." alt="Card image cap">
-					    <div class="card-body card-bg">
-					      <h4 class="card-title">Card title</h4>
-					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					    <div class="card-body card-bg" id="aquib-team">
+					      <!-- For Image -->
+
 					    </div>
 					    <div class="card-footer">
 					      <small class="text-muted">Last updated 3 mins ago</small>
 					    </div>
 					  </div>
 					  <div class="card">
-					    <img class="card-img-top" src="..." alt="Card image cap">
-					    <div class="card-body card-bg">
-					      <h4 class="card-title">Card title</h4>
-					      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+					    <div class="card-body card-bg" id="sarat-team">
+					      <!-- For Image -->
+
 					    </div>
 					    <div class="card-footer">
 					      <small class="text-muted">Last updated 3 mins ago</small>
 					    </div>
 					  </div>
+
 					  <div class="card">
-					    <img class="card-img-top" src="..." alt="Card image cap">
-					    <div class="card-body card-bg">
-					      <h4 class="card-title">Card title</h4>
-					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+					    <div class="card-body card-bg" id="shivani-team">
+					      <!-- For Image -->
+
 					    </div>
 					    <div class="card-footer">
 					      <small class="text-muted">Last updated 3 mins ago</small>
 					    </div>
 					  </div>
+					  
+					  
+					  
 				  </div>
 				</div>
 			 
 			</div>
+			<hr>
 		</div>
 	</section>
-	<hr>
 	<!-- Contact Section -->
 	<section id="contact-section">
 		<div class="container">
-			<h2>Contact Us</h2>
 			<div class="row">
-				<div class="col-md-7">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.034593544137!2d79.10771461447933!3d21.190784685910828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c6cad5b9bd4b%3A0xd191552d74c21cc4!2s46%2C+Nari+Rd%2C+Nari+Village%2C+Nagpur%2C+Maharashtra+440026!5e0!3m2!1sen!2sin!4v1511528103221" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="col-md-3"><hr></div>
+				<div class="col-md-6"><h2>Contact Us</h2></div>
+				<div class="col-md-3"><hr></div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-7" id="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.034593544137!2d79.10771461447933!3d21.190784685910828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c6cad5b9bd4b%3A0xd191552d74c21cc4!2s46%2C+Nari+Rd%2C+Nari+Village%2C+Nagpur%2C+Maharashtra+440026!5e0!3m2!1sen!2sin!4v1511528103221" width="100%" height="450" frameborder="0" style="border:2px solid #150b04;" allowfullscreen></iframe>
 				</div>
 				<div class="col-md-5">
-					<div class="card border-dark mb-3" style="max-width: 20rem;">
-					  <div class="card-header">Header</div>
-					  <div class="card-body text-dark">
+					<div class="card border-light mb-3" style="max-width: 20rem;">
+					  <div class="card-header border-light">Header</div>
+					  <div class="card-body text-light">
 					    <h4 class="card-title">Dark card title</h4>
 					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					    <h4 class="card-title">Dark card title</h4>
@@ -346,25 +394,34 @@
 					</div>
 				</div>
 			</div>
-			
+			<hr>
 		</div>
 	</section>
-	<hr>
+
+	<!-- Back to top button -->
+	<div>
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up fa-lg" aria-hidden="true"></i></button>
+  	</div>
+	
 	<!-- Footer Section -->
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					Nav here
+					<ul class="footer-menu">
+						<li class="menu-item"></li>
+						<li class="menu-item"></li>
+						<li class="menu-item"></li>
+						<li class="menu-item"></li>
+						<li class="menu-item"></li>
+					</ul>
 				</div>
 				<div class="col-md-4">
-					<p>Copyright &copy; Tabdeel Studios Training and Consultancy (OPC) Pvt. Ltd. 2017</p>
+					<p>Copyright &copy; Tabdeel Studios Pvt. Ltd. 2017</p>
 				</div>
 			</div>
 		</div>
 	</footer>
-
-
 
 
 
