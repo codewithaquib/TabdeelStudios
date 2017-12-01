@@ -59,6 +59,17 @@
     padding-top: 200px;
 }
 
+/*Quote Styling*/
+blockquote{
+	color: #555858;
+	font-style: italic;
+	margin: 25px;
+	padding: 10px;
+	background: url(images/quote-styles/bg1.png) no-repeat;
+	border-right: 8px solid #b4b4b5;
+}
+
+
 .title-tagline{
 	padding:10px;
 	border:2px solid #fff;
@@ -73,14 +84,6 @@
 #main-title, #main-tagline {
 	color:#ffffff;
 }
-/*Quote section*/
-#quote-section{
-	padding: 10px;
-}
-
-#quote-section .inverted-comma{
-	font-size: 20px;
-}
 
 
 
@@ -90,7 +93,6 @@
 	text-align: center;
 	background-color: #232B2B;
 	color: #FFFFFF;
-
 }
 
 #how-this-works hr{
@@ -105,6 +107,22 @@
 .content{
 	border: 2px solid #DC3D24;
 	padding: 8px;
+}
+
+.work-content-number{
+	border: 2px dotted #DC3D24;
+	border-radius: 100%;
+	background-color: #DC3D24;
+	width: 12%;
+	height: 15%;
+	margin: auto;
+}
+
+.content .internal-content{
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px;
+	font-style: italic;
 }
 
 #get-started-now button{
@@ -150,8 +168,17 @@
 	line-height: 1;
 }
 
+.tech-title{
+	font-weight: 700;
+	color:#000000;
+}
+
+.tech-content{
+	font-style: italic;
+}
+
 .section-last{
-	margin-top: 0;
+	margin-top: 10px;
 }
 
 /*Process Section*/
@@ -169,6 +196,21 @@
 #process-section hr{
 	border-top: 4px double #FFEBEE;
 	text-align: center;
+}
+
+.process-content-number{
+	border: 2px dotted #FFFFFF;
+	border-radius: 100%;
+	background-color: #FFFFFF;
+	width: 12%;
+	height: 13%;
+	color: #B92326;
+	margin: 10px auto;
+}
+
+.process-content-title{
+	font-weight: 700;
+	font-size: 20px;
 }
 
 #process-section .content{
@@ -227,8 +269,26 @@
 	color:#ECEFF1;
 }
 
+#packages-webdev .card-title{
+	margin-bottom: 0;
+}
+
 #packages-webdev .card-header{
 	border-bottom: 1px solid #ECEFF1;
+}
+
+#web-dev-customise-button{
+	width:50%;
+	cursor: pointer;
+}
+
+#packages-webdev .card-body button{
+	cursor: pointer;
+}
+
+#packages-webdev .card-body button:hover{
+	background-color: #DC3D24;
+	color:#FFFFFF;
 }
 
 /*Packages Section - Graphic Design*/
@@ -253,6 +313,15 @@
 
 #packages-graphic-design .card-header{
 	border-bottom: 1px solid #ECEFF1;
+}
+
+#packages-graphic-design .card-body button{
+	cursor: pointer;
+}
+
+#packages-graphic-design .card-body button:hover{
+	background-color: #DC3D24;
+	color:#FFFFFF;
 }
 
 /*Team Section*/
@@ -295,13 +364,23 @@
 }
 
 #team-back .card{
-	height: 300px;
+	height: 400px;
 }
 
 #team-section hr{
 	background-color: #b9d3ea;
 	border-top: 2px dashed #8c8b8b;
 }
+
+#team-back .card-footer-name{
+	color:#343a40;
+}
+
+
+#team-back .card-footer-links a{
+	color:#343a40;
+}
+
 
 /*Contact us Section*/
 
@@ -321,6 +400,14 @@
 	border-bottom: 1px dashed #fff; 
 }
 
+#contact-section button{
+	cursor: pointer;
+}
+
+#contact-section button:hover{
+	background-color: #DC3D24;
+	color:#FFFFFF;
+}
 /*Footer Section*/
 footer{
 	background-color: #212529;
@@ -330,6 +417,25 @@ footer{
 footer .row{
 	padding: 10px;
 }
+
+footer .footer-menu .menu-item{
+	list-style: none;
+	padding: 10px;
+	display: inline;
+	cursor: pointer;
+}
+
+footer .footer-menu{
+	color:inherit;
+	text-decoration: underline;
+	
+}
+
+footer p{
+	text-align: center;
+}
+
+
 
 
 /*Back to top button*/
