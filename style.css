@@ -278,7 +278,7 @@ blockquote{
 }
 
 #web-dev-customise-button{
-	width:40%;
+	width:50%;
 	cursor: pointer;
 }
 
@@ -400,6 +400,14 @@ blockquote{
 	border-bottom: 1px dashed #fff; 
 }
 
+#contact-section button{
+	cursor: pointer;
+}
+
+#contact-section button:hover{
+	background-color: #DC3D24;
+	color:#FFFFFF;
+}
 /*Footer Section*/
 footer{
 	background-color: #212529;
