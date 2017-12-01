@@ -279,6 +279,16 @@ blockquote{
 
 #web-dev-customise-button{
 	width:40%;
+	cursor: pointer;
+}
+
+#packages-webdev .card-body button{
+	cursor: pointer;
+}
+
+#packages-webdev .card-body button:hover{
+	background-color: #DC3D24;
+	color:#FFFFFF;
 }
 
 /*Packages Section - Graphic Design*/
@@ -303,6 +313,15 @@ blockquote{
 
 #packages-graphic-design .card-header{
 	border-bottom: 1px solid #ECEFF1;
+}
+
+#packages-graphic-design .card-body button{
+	cursor: pointer;
+}
+
+#packages-graphic-design .card-body button:hover{
+	background-color: #DC3D24;
+	color:#FFFFFF;
 }
 
 /*Team Section*/
@@ -345,13 +364,23 @@ blockquote{
 }
 
 #team-back .card{
-	height: 300px;
+	height: 400px;
 }
 
 #team-section hr{
 	background-color: #b9d3ea;
 	border-top: 2px dashed #8c8b8b;
 }
+
+#team-back .card-footer-name{
+	color:#343a40;
+}
+
+
+#team-back .card-footer-links a{
+	color:#343a40;
+}
+
 
 /*Contact us Section*/
 
@@ -380,6 +409,25 @@ footer{
 footer .row{
 	padding: 10px;
 }
+
+footer .footer-menu .menu-item{
+	list-style: none;
+	padding: 10px;
+	display: inline;
+	cursor: pointer;
+}
+
+footer .footer-menu{
+	color:inherit;
+	text-decoration: underline;
+	
+}
+
+footer p{
+	text-align: center;
+}
+
+
 
 
 /*Back to top button*/
